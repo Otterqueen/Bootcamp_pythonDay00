@@ -1,4 +1,4 @@
 import sys
 
 phrase = "The right format"
-print("{}".format(phrase.rjust(41, '-')))
+print("{:->41s}".format(phrase))
