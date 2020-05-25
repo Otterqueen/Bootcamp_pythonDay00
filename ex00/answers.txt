@@ -1,0 +1,13 @@
+1. Output a list of installed packages.
+    2 Solutions : Soit lancer l'interpretaur python, puis help('modules') pour afficher tout les modules et donc tous les packages installés
+                  Soit pip list
+
+2.Output a list of installed packages and their versions
+    2 solutions : Soit pip list (plus lisible)
+                  Soit pip freeze (plus facilement traitable) 
+
+3. pip show --verbose numpy
+
+4. pip search “tesseract”
+
+5. pip freeze > requirements.txt
